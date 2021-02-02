@@ -6,6 +6,7 @@
 //!
 //! [1] https://github.com/enarx/enarx-keepldr/wiki/AMD-SEV-Remote-Attestation-Protocol
 
+//taken wholesale for https://github.com/connorkuehl/koine/commit/8659386bbdce554872231636d00a4b94c69f3aa2
 use serde::{Deserialize, Serialize};
 use sev::certs::Chain;
 use sev::launch;
